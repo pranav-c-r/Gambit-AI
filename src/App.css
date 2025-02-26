@@ -1,0 +1,26 @@
+/* Styling for the main App container */
+.app {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Chessboard container */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Add responsiveness */
+@media (max-width: 600px) {
+  .app {
+    max-width: 90%;
+    padding: 10px;
+  }
+}
