@@ -1,0 +1,57 @@
+/* ChessGame.css */
+.chess-game {
+    padding: 20px;
+  }
+  
+  .game-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .chessboard-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .game-info {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  
+  .status-container {
+    margin-bottom: 20px;
+  }
+  
+  .status-container h2 {
+    color: #f0a500;
+    margin-bottom: 10px;
+  }
+  
+  .status-message {
+    background-color: #3d3d3d;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+  }
+  
+  .reset-button {
+    background-color: #f0a500;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .reset-button:hover {
+    background-color: #ffbb00;
+  }

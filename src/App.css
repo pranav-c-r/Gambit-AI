@@ -1,26 +1,24 @@
-/* Styling for the main App container */
-.app {
-  text-align: center;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  margin: auto;
-}
-
-/* Chessboard container */
-.game-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-/* Add responsiveness */
-@media (max-width: 600px) {
-  .app {
-    max-width: 90%;
-    padding: 10px;
+/* App.css */
+.app-container {
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
   }
-}
+  
+  .app-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #f0a500;
+    margin-bottom: 30px;
+  }
+  
+  /* Chessboard container styles */
+  .chessboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
