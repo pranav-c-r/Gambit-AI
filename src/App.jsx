@@ -1,11 +1,11 @@
 import React from "react";
 import ChessGame from "./components/ChessGame";
-import "./app.css"; // App-specific styles
+import "./App.css"; // Regular CSS file
 
 const App = () => {
   return (
-    <div className="app">
-      <h1>Gambit AI - React Chess Bot</h1>
+    <div className="app-container">
+      <h1 className="app-title">Gambit AI - React Chess Bot</h1>
       <ChessGame />
     </div>
   );

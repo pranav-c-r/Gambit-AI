@@ -55,3 +55,149 @@
   .reset-button:hover {
     background-color: #ffbb00;
   }
+
+  .chess-game {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .game-status {
+    padding: 0.5rem;
+    background: #333;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  .chess-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .chessboard-wrapper {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .game-info {
+    width: 100%;
+    max-width: 600px;
+    background: #2d3748;
+    border-radius: 8px;
+    padding: 1.5rem;
+    color: white;
+  }
+  
+  .status-card {
+    background: #4a5568;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .status-card h3 {
+    margin-top: 0;
+    color: #f6ad55;
+  }
+  
+  .status-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .fen-display {
+    margin-bottom: 1.5rem;
+  }
+  
+  .fen-display h3 {
+    color: #f6ad55;
+    margin-bottom: 0.5rem;
+  }
+  
+  .fen-display code {
+    display: block;
+    background: #1a202c;
+    padding: 0.75rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-size: 0.9rem;
+  }
+  
+  .reset-button {
+    background: #f6ad55;
+    color: #1a202c;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+  }
+  
+  .reset-button:hover {
+    background: #fbd38d;
+  }
+  
+  .reset-button:disabled {
+    background: #4a5568;
+    cursor: not-allowed;
+    color: #a0aec0;
+  }
+  
+  @media (min-width: 768px) {
+    .chess-container {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    
+    .game-info {
+      margin-top: 0;
+    }
+  }
+
+  .chess-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .status {
+    margin: 20px 0;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .status-error {
+    background: #F44336;
+  }
+  
+  .chessboard-wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reset-btn:disabled {
+    background: #9E9E9E;
+    cursor: not-allowed;
+  }
